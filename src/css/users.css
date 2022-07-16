@@ -1,0 +1,53 @@
+.users-wrapper {
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding:0 20px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+
+.chat-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom:24px;
+}
+
+
+.user-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.user-logo img{
+    width:48px;
+    border-radius: 50%;
+}
+
+.user-chat{
+    padding-left: 20px;
+}
+
+.user-name{
+    font-size:16px;
+}
+
+.user-message {
+    font-size:14px;
+}
+
+.chat-data{
+    font-size:12px;
+}
+
+.notification-num{
+    border-radius: 50%;
+    color:white;
+    background-color: black;
+    padding-left:10px;
+}

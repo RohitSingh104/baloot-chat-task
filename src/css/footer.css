@@ -1,0 +1,18 @@
+.footer-wrapper{
+    background-color: black;
+    padding:20px 40px;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+  
+}
+
+.footer-wrapper div img {
+    cursor: pointer;
+}
