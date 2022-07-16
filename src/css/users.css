@@ -6,8 +6,18 @@
     font-family: 'Kantumruy Pro', sans-serif;
     font-family: 'Poppins', sans-serif;
     padding-top: 20px;
+    height: 86vh;
+    overflow-y: scroll;
+    
+      
 }
-
+.users-wrapper::-webkit-scrollbar {
+    width: 2px;
+  }
+.users-wrapper::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+  
 
 .chat-wrapper{
     display: flex;
